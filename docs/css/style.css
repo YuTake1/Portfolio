@@ -1,17 +1,14 @@
 @charset "utf-8";
 body {
-  /* font-family: Arial, sans-serif; */
-  /* height: 100%; 高さを100%にして描画エリアをとる */
-  /* background-color: #f2f2f2; */
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #3c636cd9;
+  background-color: #1a4e5ab1;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
@@ -20,7 +17,7 @@ h1 {
 
 nav {
   text-align: center;
-  background-color: #27553772;
+  background-color: #62919cb1;
   padding: 10px;
 }
 
@@ -29,12 +26,36 @@ nav a {
 }
 
 .main {
-  padding-bottom: 200px;
+  text-align: center;
+  min-height: 100vh;
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1a4e5ab1;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+#particles-js {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #96abbeaf;
 }
 
 .fluid {
-  width: 40vh; /*横幅*/
-  height: 40vh; /*縦幅*/
+  width: 30vh; /*横幅*/
+  height: 30vh; /*縦幅*/
   background: #0b5b94; /*背景色*/
   animation: fluidrotate 30s ease 0s infinite; /*アニメーションの設定*/
 }
@@ -62,26 +83,4 @@ nav a {
   84% {
     border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
   }
-}
-
-#wrapper {
-  min-height: 100vh;
-  padding-bottom: 10px;
-}
-
-footer {
-  text-align: center;
-  background-color: #3c636cd9;
-  color: #fff;
-  width: 100%;
-  padding: 10px 0;
-  margin-top: auto;
-}
-
-#particles-js {
-  position: fixed;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: #ddd9e9a4;
 }
